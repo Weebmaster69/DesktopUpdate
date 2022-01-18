@@ -1,6 +1,5 @@
 # where our app is hosted on the internets
-appbase = https://github.com/Weebmaster69/desktopAutoUpdate/releases/download/tag
-
+appbase = https://github.com/Weebmaster69/desktopUpdate/releases/download/main
 # the jar file that contains our code
 code = desktopUpdate-1.0-SNAPSHOT.jar
 
@@ -16,22 +15,3 @@ apparg = %APPDIR%
 # test the %env% mechanism
 jvmarg = -Dusername=\%ENV.USER%
 
-strict_comments = true
-resource = funny%test dir/some=file.txt
-resource = crazyhashfile#txt
-uresource = foo.jar
-xresource = script.sh
-
-ui.name = Desktop update
-ui.background_image = background.png
-ui.progress = 17, 321, 458, 22
-ui.progress_bar = 336600
-ui.progress_text = FFFFFF
-ui.status = 57, 245, 373, 68
-ui.status_text = 000000
-
-# java_min_version = 1080112
-# java_exact_version_required = true
-# java_location = [windows] java_windows.jar
-# java_location = [mac os x] java_macos.jar
-# java_location = [linux] java_linux.jar
